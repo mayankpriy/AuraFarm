@@ -104,8 +104,7 @@ You can contribute by:
 
 ## 👨‍💻 Author
 
-**Mayank Priy**
-human
+*Mayank Priy*
 ---
 
 ## ⭐ Support
