@@ -1,0 +1,28 @@
+[project]
+name = "aurafarm"
+version = "0.1.0"
+description = "Data debugging and validation toolkit"
+authors = [
+    { name = "Mayank Priy" }
+]
+requires-python = ">=3.9"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "mysql-connector-python",
+    "python-dotenv",
+    "jupyter",
+    "kaggle"
+]
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
